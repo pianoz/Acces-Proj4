@@ -1,0 +1,89 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<style>
+@import url('https://fonts.googleapis.com/css?family=Bellefair');
+</style>
+
+<body class = "main" aria-label="background image of a frozen lake surrounded by dark pine forest.">
+
+<div class="sitetitlebox">
+  <h1 class="sitetitle"> How to Not Die; an Outdoors Blog. </h1>
+</div>
+
+<div class="linkbox">
+  <div id="link"> <a href="index.html">Home</a> </div>
+  <div id="link"> <a href="archive">Archive</a> </div>
+  <div id="link"> <a href="https://github.com/pianoz">Github</a> </div>
+</div>
+
+<div class="contentbox">
+  <div class="articletitlebox">
+    <h2 class="articletitle">How to Not Die: Skiing Torrey's</h2>
+  </div>
+  <div class="articlebox">
+    <h3 class="articlesubtitle"> The Approach </h3>
+    <p class="articletext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+      exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+      dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+      anim id est laborum.</p>
+      <div class="imghandler">
+        <img src ="nick.jpg" alt="Nick traversing a wide snowy slope toward a wide ridgeline." height="30%">
+      </div>
+      <p class="articletext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+        anim id est laborum.</p>
+      <h3 class="articlesubtitle">The Conditions<h3>
+      <p class="articletext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+      exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+      dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+      anim id est laborum.</p>
+
+      <table style="width:100%; color:white;">
+        <tr>
+          <th>Time</th>
+          <th>Temperature</th>
+        </tr>
+        <tr>
+          <td>8:00 AM</td>
+          <td>17</td>
+        </tr>
+        <tr>
+          <td>9:30 AM</td>
+          <td>34</td>
+        </tr>
+        <tr>
+          <td>11:25 AM</td>
+          <td>60</td>
+        </tr>
+      </table>
+  </div>
+
+  <div class="articletitlebox">
+    <h2 class="articletitle">Comments</h2>
+  </div>
+
+  <div class="articlebox">
+    <p class="articletext"><label for="name"> Username: </label> <input id="username"></p>
+    <p class="articletext"><label for="name"> Scathing Comment: </label> <input type="text" id="ScathingComment" maxlength="128"></p>
+    <div id="error">Commenting Disabled</div>
+    <p class="articletext"><button id="submitcomment" onclick="showDiv()">Submit</button>
+  </div>
+
+</div>
+
+</body>
+<script>
+function showDiv() {
+   document.getElementById('error').style.display = "block";
+}
+</script>
+</html>
